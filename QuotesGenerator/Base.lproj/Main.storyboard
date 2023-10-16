@@ -54,6 +54,9 @@
                                 <rect key="frame" x="153" y="348" width="87.333333333333314" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="명언 생성"/>
+                                <connections>
+                                    <action selector="quoteBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OkV-jB-7yo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,6 +72,10 @@
                             <constraint firstItem="P6S-T9-Qx1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="liF-LZ-Al4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="cfi-UW-OHX" id="9DE-iQ-vyK"/>
+                        <outlet property="quoteLabel" destination="FRd-qa-nga" id="I5C-7L-cMu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
